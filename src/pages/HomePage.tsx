@@ -1,12 +1,13 @@
-import React from 'react'
 import UserCard from '../components/UserCard'
+import '../styles/styles.scss'
 
 const HomePage = () => {
+  
   return (
-    <div>
-        <h1>Users</h1>
-        {/* <UserCard/> */}
-    </div>
+    <div className='homePage'>
+      <h1>Users</h1>
+      <UserCard/>
+    </div> 
   )
 }
 
